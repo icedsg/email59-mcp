@@ -22,6 +22,11 @@ Claude Code:
 claude mcp add --transport http email59 https://email59.com/v1/mcp
 ```
 
+Gemini CLI (this repo is a Gemini CLI extension):
+```bash
+gemini extensions install https://github.com/icedsg/email59-mcp
+```
+
 Claude Desktop, Cursor, Cline, VS Code and other clients that read an `mcpServers` block:
 ```json
 {
